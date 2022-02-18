@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: var(--gradient-16);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--font-sans);
+    color: var(--gray-2);
+    min-height:100vh;
+
+}
+main{
+    display: flex;
+    border-radius: var(--radius-3);
+    background-color: var(--gray-9);
+    width: 900px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main div{width: 30%;}
+main div > p{display: inline-block;}
+.name-combat{
+    width:90%;
+}
